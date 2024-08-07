@@ -62,7 +62,7 @@ $$
 Програма повинна виводити на екран значення числа $\pi$ з заданою точність $\epsilon$ і кількість доданків/множників,
 які було взято для отримання результату, у формі:
 ```
-The Gregory formula gives value (value1} with the accuracy (accuracy) by using (N1} members of series.
+The Leibniz formula gives value (value1} with the accuracy (accuracy) by using (N1} members of series.
 The Vallis formula gives value (value2} with the accuracy (accuracy) by using (N2) members of series.
 ```
 
@@ -82,11 +82,11 @@ def pi_gregory_vallis(eps: float) -> None:
     Точність має бути більшою за 0
 
     >>> pi_gregory_vallis(0.9)
-    The Gregory formula gives value 4 with the accuracy 0.14 by using 1 members of series.
+    The Leibniz formula gives value 4 with the accuracy 0.14 by using 1 members of series.
     The Vallis formula gives value 4 with the accuracy 0.14 by using 1 members of series.
 
     >>> pi_gregory_vallis(0.01)
-    The Gregory formula gives value 3.1315929036 with the accuracy 0.01 by using 100 members of series.
+    The Leibniz formula gives value 3.1315929036 with the accuracy 0.01 by using 100 members of series.
     The Vallis formula gives value 3.119167469083 with the accuracy 0ю01 by using 100 members of series.
 
     """
